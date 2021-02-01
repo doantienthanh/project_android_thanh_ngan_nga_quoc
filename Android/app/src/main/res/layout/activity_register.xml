@@ -4,22 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="30dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Đăng kí"
-        android:textColor="#90c40909"
-        android:textSize="33dp"
-        android:textStyle="bold" />
+        android:textColor="#ff00ff"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/full_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="50dp">
 
         <EditText
             android:id="@+id/txtNameDK"
@@ -34,7 +35,7 @@
         android:id="@+id/email_address"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="20dp">
 
         <EditText
             android:id="@+id/txtEmailDK"
@@ -49,8 +50,7 @@
         android:id="@+id/password"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
-
+        android:layout_marginTop="20dp">
         <EditText
             android:id="@+id/txtPassDK"
             android:layout_width="fill_parent"
@@ -59,13 +59,12 @@
             android:hint="Mật khẩu"
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
-
     <Button
         android:id="@+id/btnDangkiDK"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#3498db"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonstyle"
         android:text="Đăng kí"
         android:textColor="#fff" />
 
@@ -73,47 +72,9 @@
         android:id="@+id/btnDangnhapDK"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#b45705"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyles"
         android:text="Đăng nhập"
-        android:textColor="#fff" />
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginTop="16dp"
-        android:gravity="center_horizontal"
-        android:text="HOẶC"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/btnFace"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#3b5998"
-        android:text="Đăng nhập bằng facebook"
-        android:textAllCaps="false"
-        android:textColor="#fff" />
-
-    <Button
-        android:id="@+id/btnTwit"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="#55acee"
-        android:text="Đăng nhập bằng twitter"
-        android:textAllCaps="false"
-        android:textColor="#fff" />
-
-    <Button
-        android:id="@+id/btnGoogle"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#dc4e41"
-        android:text="Đăng nhập bằng google +"
-        android:textAllCaps="false"
         android:textColor="#fff" />
 
 </LinearLayout>

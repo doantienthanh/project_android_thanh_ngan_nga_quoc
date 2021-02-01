@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
     tools:context=".activity.activity.activity.Thongtinkhachhang">
 <LinearLayout
     android:orientation="vertical"
@@ -16,7 +15,8 @@
     android:layout_marginBottom="40dp"
     android:layout_marginTop="70dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="30dp">
     <TextView
         android:layout_marginTop="15dp"
         android:layout_marginRight="5dp"
@@ -24,7 +24,7 @@
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
-        android:text="Thông tin khách hàng"
+        android:text="Thông Tin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
   <android.support.design.widget.TextInputLayout
@@ -78,29 +78,29 @@
     <LinearLayout
         android:gravity="center"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:layout_marginLeft="20dp"
-        android:background="@color/colorPrimary"
+            android:layout_marginLeft="15dp"
+        android:background="@drawable/buttonstyle"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
         android:padding="10dp"
         android:id="@+id/buttonxacnhan"
         android:text="Xác nhận"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content" />
         <Button
-            android:layout_marginLeft="40dp"
-            android:background="@color/colorPrimary"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/buttonstyles"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
             android:padding="10dp"
             android:id="@+id/buttontrove"
             android:text="Trở về"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

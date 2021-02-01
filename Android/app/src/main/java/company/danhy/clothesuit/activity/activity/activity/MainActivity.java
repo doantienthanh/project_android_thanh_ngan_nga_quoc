@@ -170,7 +170,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     private void catOnItemListView() {
         listViewManHinhChinh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
